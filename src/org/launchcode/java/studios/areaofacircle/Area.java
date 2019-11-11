@@ -16,11 +16,8 @@ public class Area {
         radius = input.nextDouble();
         input.close();
 
-        if (radius !>0 || radius = " ") && (assertThat(isNumeric(radius)).isTrue()) {
-            System.out.println("Please enter a valid numerical value.")
-        }
-        else
+
             System.out.println("The area of the circle is: " + Circle.getArea(radius));
-        }
+
     }
 }
