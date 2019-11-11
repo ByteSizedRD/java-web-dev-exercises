@@ -6,7 +6,6 @@ public class AliceQuoteSearch {
     public static void main(String[] args) {
         String quoteFromAlice;
         String searchTerm;
-        Boolean searchTermResult;
         Scanner input;
 
         quoteFromAlice = "Alice was beginning to get very tired of" +
@@ -22,7 +21,6 @@ public class AliceQuoteSearch {
         input.close();
 
         if (quoteFromAlice.toLowerCase().contains(searchTerm.toLowerCase())) {
-            searchTermResult = true;
             System.out.println(searchTerm + " was found in the quote from Alice.");
         }
         else
