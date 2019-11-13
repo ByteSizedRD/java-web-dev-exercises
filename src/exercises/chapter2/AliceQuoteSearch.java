@@ -1,13 +1,11 @@
-package exercises;
+package exercises.chapter2;
 
 import java.util.Scanner;
 
-public class AliceQuoteSearchStrings {
+public class AliceQuoteSearch {
     public static void main(String[] args) {
         String quoteFromAlice;
         String searchTerm;
-        int searchTermIndex;
-        int searchTermLength;
         Scanner input;
 
         quoteFromAlice = "Alice was beginning to get very tired of" +
@@ -22,12 +20,8 @@ public class AliceQuoteSearchStrings {
         searchTerm = input.next();
         input.close();
 
-        searchTermIndex = quoteFromAlice.indexOf(searchTerm);
-        searchTermLength = searchTerm.length();
-
         if (quoteFromAlice.toLowerCase().contains(searchTerm.toLowerCase())) {
-            System.out.println("The first instance of \"" + searchTerm + "\" was found in the quote from Alice at" +
-                    " index " + searchTermIndex + " and was " + searchTermLength + " characters long");
+            System.out.println(searchTerm + " was found in the quote from Alice.");
         }
         else
             System.out.println(searchTerm + " wasn't found in the quote from Alice. Try Again.");

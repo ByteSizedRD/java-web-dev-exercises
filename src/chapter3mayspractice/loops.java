@@ -1,4 +1,4 @@
-package Chapter3MaysPractice;
+package chapter3mayspractice;
 
 public class loops {
     public static void main(String[] args) {

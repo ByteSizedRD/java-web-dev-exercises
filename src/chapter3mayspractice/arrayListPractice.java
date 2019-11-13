@@ -1,4 +1,4 @@
-package Chapter3MaysPractice;
+package chapter3mayspractice;
 
 import java.util.ArrayList;
 import java.util.Scanner;
