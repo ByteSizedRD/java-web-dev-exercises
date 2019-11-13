@@ -1,4 +1,4 @@
-package MaysPractice;
+package Chapter3MaysPractice;
 
 public class continueStatement {
     public static void main(String[] args) {
@@ -15,7 +15,7 @@ public class continueStatement {
         String[] someWords = {"This", "is", "just", "for", "practice", "so", "is", "this."};
         String searchTerm2 = "is";
         for (String oneWord : someWords) {
-            if (oneWord == searchTerm2) {
+            if (oneWord.equals(searchTerm2)) {
                 System.out.println("Found the word!");
                 continue;
             }

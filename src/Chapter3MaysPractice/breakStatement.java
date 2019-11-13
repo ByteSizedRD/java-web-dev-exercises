@@ -1,4 +1,4 @@
-package MaysPractice;
+package Chapter3MaysPractice;
 
 public class breakStatement {
     public static void main(String[] args) {

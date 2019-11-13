@@ -1,4 +1,4 @@
-package MaysPractice;
+package Chapter3MaysPractice;
 
 import java.util.Collection;
 import java.util.HashMap;

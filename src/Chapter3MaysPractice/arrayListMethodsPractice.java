@@ -1,4 +1,4 @@
-package MaysPractice;
+package Chapter3MaysPractice;
 
 
 import java.util.ArrayList;
@@ -6,7 +6,7 @@ import java.util.Collections;
 
 public class arrayListMethodsPractice {
     public static void main(String[] args) {
-        ArrayList<String> planets = new ArrayList<String>();
+        ArrayList<String> planets = new ArrayList<>();
 
         Collections.addAll(planets, "Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus",
                 "Neptune");
