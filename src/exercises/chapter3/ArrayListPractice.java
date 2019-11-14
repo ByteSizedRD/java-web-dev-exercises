@@ -19,8 +19,8 @@ public class ArrayListPractice {
         //Write a static method to print out each word in a list that has exactly 5 letters.
         //Made Print5LetterWord as the static method for this exercise
 
-        ArrayList<String>  wordPrint = new ArrayList<>();
-        Collections.addAll(wordPrint, "This", "is", "my", "five", "words", "search", "happy", "kitty");
-        System.out.println((Print5LetterWord.lookForFive(wordPrint)));
+//        ArrayList<String>  wordPrint = new ArrayList<>();
+//        Collections.addAll(wordPrint, "This", "is", "my", "five", "words", "search", "happy", "kitty");
+//        System.out.println((Print5LetterWord.lookForFive(wordPrint)));
     }
 }
